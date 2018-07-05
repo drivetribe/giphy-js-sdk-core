@@ -9,8 +9,6 @@
  
 var webpack = require('webpack');
 var path = require('path');
-var libraryName = 'library';
-var outputFile = libraryName + '.js';
 
 var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 var env = process.env.WEBPACK_ENV;
